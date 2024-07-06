@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "express": "^4.19.2"
+  },
+  "name": "templateapi",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "run": "node app.js"
+  },
+  "keywords": [],
+  "author": "bronacusammon",
+  "license": "ISC",
+  "description": ""
+}
