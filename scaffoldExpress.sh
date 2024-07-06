@@ -27,8 +27,6 @@ if ! [ -d "$FOLDER/controllers" ]; then
     mkdir $FOLDER/controllers $FOLDER/controllers/auth $FOLDER/routes $FOLDER/routes/auth $FOLDER/utils $FOLDER/views  $FOLDER/middleware $FOLDER/manifest
 fi
 
-touch $FOLDER/app.js $FOLDER/controllers/$DEFAULT.js $FOLDER/routes/$DEFAULT.js $FOLDER/middleware/routing.js $FOLDER/utils/helperFunctions.js $FOLDER/utils/logger.js $FOLDER/manifest/error.log
-
 #app echo
 cat ./templateAPI/app.js > $FOLDER/app.js
 
